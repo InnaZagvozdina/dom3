@@ -29,14 +29,14 @@ public class Main {
                 // Задание 3
 
                 int year = 2021;
-                if (year % 100 == 0 && year % 400 == 0) ;
-                System.out.println("Год" + year + " является високосным");
-                else if (year % 4 == 0 && year % 100 > 0)
-                System.out.println("Год" + year + " является високосным");
-                else if (year % 100 == 0)
-                    System.out.println("Год" + year + " не является високосным");
-                else {
-                    System.out.println("Год" + year + " не является високосным");
+                if (year % 4 == 0 && year % 100 > 0 || year % 400 == 0) {
+                    System.out.println("Год" + year + " является високосным");
+                 } else {
+                    System.out.println("Год" + year + " является не високосным");
+                }
+
+
+
                 }
             }
 
@@ -47,7 +47,7 @@ public class Main {
 
 
         }
-    }
+
 
 
 
