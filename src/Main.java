@@ -12,29 +12,32 @@ public class Main {
             System.out.println("Установите версию для Android по ссылке");
 
 
-                            //Задание 2
+            //Задание 2
 
-                int clientAndroid = 0;
-                int PhonAge = 2015;
-                if (clientAndroid == 1 && PhonAge <= 2014) {
-                    System.out.println("Установите облегченную версию для Андроид по ссылке");
-                    if (clientAndroid == 1 && PhonAge >= 2015) {
-                        System.out.println("Установите версию для Андроид по ссылке");
-                    } else
-                        if (clientAndroid == 0 && PhonAge >= 2015) {
-                            System.out.println("Установите версию для iOS по ссылке");
-
-
-                    }
-                }
-
-
-
-
+            int clientAndroid = 0;
+            int PhonAge = 2014;
+            if (clientAndroid == 1 && PhonAge <= 2014) {
+                System.out.println("Установите облегченную версию для Андроид по ссылке");
+            } else if (clientAndroid == 1 && PhonAge >= 2015) {
+                System.out.println("Установите версию для Андроид по ссылке");
+            } else if (clientAndroid == 0 && PhonAge <= 2014) {
+                System.out.println("Установите облегченную версию для iOS по ссылке");
+            } else {
+                System.out.println("Установите версию для iOS");
             }
-
         }
     }
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
