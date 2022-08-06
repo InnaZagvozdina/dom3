@@ -27,27 +27,33 @@ public class Main {
             }
 
 
+            // Задание 3
 
-                // Задание 3
+            int year = 2021;
+            if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+                System.out.println("Год " + year + " является високосным");
+            } else {
+                System.out.println("Год " + year + " является не високосным");
+            }
 
-                int year = 2021;
-                if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
-                    System.out.println("Год " + year + " является високосным");
-                 } else {
-                    System.out.println("Год " + year + " является не високосным");
-                }
+            // Задание 4
 
-                // Задание 4
-
-
-
-
-
-                }
+            int deliveryDistance = 19;
+            if (deliveryDistance <= 20) {
+                System.out.println("Потребуется один день");
+            if (deliveryDistance > 20 && deliveryDistance <= 60) {
+                    System.out.println("Потребуется два дня доставки");
+                } else  if (deliveryDistance > 60 && deliveryDistance >= 100)
+                    System.out.println("Потребуется три дня");
             }
 
 
-            }
+        }
+    }
+}
+
+
+
 
 
 
